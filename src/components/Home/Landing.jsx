@@ -5,7 +5,6 @@ import DownArrow from '../DownArrow';
 import benefitIcon1 from '../../assets/icons/benefit-icon-1.svg';
 import benefitIcon2 from '../../assets/icons/benefit-icon-2.svg';
 import benefitIcon3 from '../../assets/icons/benefit-icon-3.svg';
-import hacksmcLogo from '../../assets/hacksmc/logo-main.png';
 
 /**
  * Landing Component
@@ -80,16 +79,6 @@ const EVENTS = [
     time: '3:00 – 5:00 PM',
     tagline: 'Santa Monica HQ',
     cta: { label: 'Sign Up', url: 'https://docs.google.com/forms/d/e/1FAIpQLSer2trn0kGwUns4wAyAqpw4nnDetOVgrqtYFbAAtmOLUXIDKw/viewform' },
-  },
-  {
-    id: 'hacksmc',
-    type: 'hackathon',
-    name: 'HackSMC 2026',
-    date: 'May 9–10',
-    time: null,
-    tagline: '$7k+ in Prizes',
-    cta: { label: 'Learn More', url: 'https://hacksmc.com' },
-    logo: hacksmcLogo,
   },
   {
     id: 'anita',
