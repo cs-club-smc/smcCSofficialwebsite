@@ -1,5 +1,5 @@
 import Footer from '../components/Footer';
-import peterPhoto from '../assets/team/photos/peter.jpg';
+import peterPhoto from '../assets/team/photos/peter.JPG';
 import samPhoto from '../assets/team/photos/sam.jpeg';
 import danielPhoto from '../assets/team/photos/daniel.jpeg';
 import joshPhoto from '../assets/team/photos/josh.jpeg';
