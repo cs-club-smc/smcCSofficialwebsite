@@ -1,20 +1,20 @@
 import Footer from '../components/Footer';
-import evanPhoto from '../assets/team/photos/evan.jpg';
-import kaiPhoto from '../assets/team/photos/kai.jpg';
-import seanPhoto from '../assets/team/photos/sean.jpg';
-import akuaPhoto from '../assets/team/photos/akua.jpg';
-import kathleenPhoto from '../assets/team/photos/kathleen.jpg';
-import ryonPhoto from '../assets/team/photos/ryon.jpg';
-import aidanaPhoto from '../assets/team/photos/aidana.jpg';
+import peterPhoto from '../assets/team/photos/peter.jpg';
+import samPhoto from '../assets/team/photos/sam.jpeg';
+import danielPhoto from '../assets/team/photos/daniel.jpeg';
+import joshPhoto from '../assets/team/photos/josh.jpeg';
+import tygoPhoto from '../assets/team/photos/tygo.jpeg';
+import thetPhoto from '../assets/team/photos/thet.png';
+import isabellePhoto from '../assets/team/photos/isabelle.jpg';
 
 const boardMembers = [
-  { photo: kaiPhoto, name: "Kai", role: "Co-President" },
-  { photo: ryonPhoto, name: "Ryon", role: "Co-President" },
-  { photo: seanPhoto, name: "Sean", role: "Vice President" },
-  { photo: akuaPhoto, name: "Akua", role: "Publicity Officer" },
-  { photo: kathleenPhoto, name: "Kathleen", role: "Secretary" },
-  { photo: aidanaPhoto, name: "Aidana", role: "ICC Delegate" },
-  { photo: evanPhoto, name: "Evan", role: "Officer" },
+  { photo: peterPhoto, name: "Peter", role: "President" },
+  { photo: samPhoto, name: "Sam", role: "Vice President" },
+  { photo: danielPhoto, name: "Daniel", role: "Website Coordinator" },
+  { photo: joshPhoto, name: "Josh", role: "Secretary" },
+  { photo: tygoPhoto, name: "Tygo", role: "Treasurer" },
+  { photo: thetPhoto, name: "Thet", role: "ICC Delegate" },
+  { photo: isabellePhoto, name: "Isabelle", role: "Publicity Officer" },
 ];
 
 /**
