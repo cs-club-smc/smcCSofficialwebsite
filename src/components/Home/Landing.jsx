@@ -54,31 +54,31 @@ function useTextScramble(text, delay = 0, speed = 30) {
 // Events data
 const EVENTS = [
   {
-    id: 'lmu-shpe',
+    id: 'Microsoft',
     type: 'tour',
-    name: 'LMU SHPE Tour',
-    date: 'March 26',
-    time: '5:30 PM',
-    tagline: 'Loyola Marymount University',
-    cta: { label: 'Sign Up', url: 'https://docs.google.com/forms/d/e/1FAIpQLSctbG_1HJe-MMK_-lRh3NzwBc1ioZDaFW6KDx8Wdikbd2Vlrw/viewform' },
+    name: 'Microsoft Tour',
+    date: 'October 1st',
+    time: '11:30 AM',
+    tagline: 'Microsoft',
+    cta: { label: 'Waitlist', url: 'https://forms.gle/brQ3vtYxxuErCLc86' },
   },
   {
-    id: 'planetarium',
-    type: 'tour',
-    name: 'SMC Planetarium Tour',
-    date: 'April 27',
-    time: 'Time TBA',
+    id: 'Club Awareness',
+    type: 'event',
+    name: 'Club Awareness Day',
+    date: 'September 29th',
+    time: '11:15 AM - 12:35 PM',
     tagline: 'Santa Monica College',
     cta: { label: 'Coming Soon', url: null },
   },
   {
-    id: 'snapchat',
-    type: 'tour',
-    name: 'Snapchat Office Tour',
-    date: 'May 7',
-    time: '3:00 – 5:00 PM',
-    tagline: 'Santa Monica HQ',
-    cta: { label: 'Sign Up', url: 'https://docs.google.com/forms/d/e/1FAIpQLSer2trn0kGwUns4wAyAqpw4nnDetOVgrqtYFbAAtmOLUXIDKw/viewform' },
+    id: 'Club Row',
+    type: 'event',
+    name: 'Club Row',
+    date: 'October 29th',
+    time: 'TBA',
+    tagline: 'Santa Monica College',
+    cta: { label: 'Coming Soon', url: '' },
   },
   {
     id: 'anita',
@@ -106,12 +106,14 @@ const TYPE_COLORS = {
   tour: '#0FB588',
   hackathon: '#FFD700',
   speaker: '#818CF8',
+  event: '#FF6F61',
 };
 
 const TYPE_COLORS_RGB = {
   tour: '15, 181, 136',
   hackathon: '255, 215, 0',
   speaker: '129, 140, 248',
+  event: '255, 111, 97',
 };
 
 const TYPE_ICONS = {
