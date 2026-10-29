@@ -1,10 +1,10 @@
 import Footer from '../components/Footer';
-import peterPhoto from '../assets/team/photos/peter.JPG';
-import samPhoto from '../assets/team/photos/sam.JPEG';
-import danielPhoto from '../assets/team/photos/daniel.jpeg';
-import joshPhoto from '../assets/team/photos/josh.jpeg';
-import tygoPhoto from '../assets/team/photos/tygo.jpeg';
-import thetPhoto from '../assets/team/photos/thet.png';
+import peterPhoto from '../assets/team/photos/peter.jpg';
+import samPhoto from '../assets/team/photos/sam.jpg';
+import danielPhoto from '../assets/team/photos/daniel.jpg';
+import joshPhoto from '../assets/team/photos/josh.jpg';
+import tygoPhoto from '../assets/team/photos/tygo.jpg';
+import thetPhoto from '../assets/team/photos/thet.jpg';
 import isabellePhoto from '../assets/team/photos/isabelle.jpg';
 
 const boardMembers = [
