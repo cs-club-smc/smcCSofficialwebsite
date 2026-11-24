@@ -127,6 +127,9 @@ function isEventPassed(dateStr) {
   const now = new Date();
   const currentYear = now.getFullYear();
 
+  // Strip ordinal suffixes so "October 1st" parses like "October 1"
+  dateStr = dateStr.trim().replace(/(\d+)(st|nd|rd|th)\b/gi, '$1');
+
   // Date range like "May 9–10" or "May 9-10" — use the end date
   const rangeMatch = dateStr.match(/^(\w+)\s+\d+[\u2013-](\d+)$/);
   if (rangeMatch) {
